@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.contextsdk.com/basics/getting-started
+docs: https://docs.contextsdk.com/basics/getting-started
+summary:
+  types: [apiKey]
+  api_key_in: [sdk-config]
+  oauth2_flows: []
+  model: per-app license key
+schemes:
+- name: LicenseKey
+  type: apiKey
+  in: sdk-config
+  description: >-
+    Each app authenticates the ContextSDK integration with a license key created
+    in the ContextSDK Dashboard. The key is passed to the SDK at initialization
+    (for example ContextManager.applicationDidFinishLaunchingWithOptions(_:licenseKey:)
+    on iOS, or ContextSDK.setup(context, licenseKey) on Android) and authorizes
+    the ContextDecision and ContextPush products. Each environment / bundle ID or
+    package name requires its own license key.
+  provisioning: https://dashboard.contextsdk.com/login
+  sources: [https://docs.contextsdk.com/basics/getting-started]
+notes: >-
+  ContextSDK has no public REST API and no OpenAPI; there are no OAuth2 flows or
+  scopes. Authentication is a single per-app license key supplied to the client
+  SDK. On-device processing; data transmitted to ContextSDK servers is over
+  HTTPS/TLS 1.2+.
