@@ -1,7 +1,15 @@
 aid: contextsdk
-name: Contextsdk
-description: Contextsdk is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: ContextSDK
+description: >-
+  ContextSDK is an on-device context intelligence layer for mobile apps, founded by
+  Felix Krause and Dieter Rappold and backed by Speedinvest. Its SDK processes 300+
+  real-world device signals (accelerometer, gyroscope, motion, screen state, ambient
+  signals) through on-device machine learning to determine what a user is doing in the
+  moment — commuting, relaxing, working, or being active — within seconds of app launch,
+  with no PII collected and a ~0.6 MB footprint. Two products build on this: ContextDecision
+  for intelligent timing of in-app actions and messages, and ContextPush for context-aware
+  push notification delivery. ContextSDK ships native clients for iOS (Swift), Flutter, React
+  Native, and Unity, with Android in beta, and is SOC 2 Type 2 certified and GDPR compliant.
 url: https://raw.githubusercontent.com/api-evangelist/contextsdk/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,33 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://contextsdk.com/favicon.ico
 tags:
 - Company
+- Mobile
+- SDK
+- On-Device
+- Context
+- Machine Learning
+- Push Notifications
+- Privacy
+- iOS
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,46 @@ maintainers:
 common:
 - type: Website
   url: https://contextsdk.com
+- type: DeveloperPortal
+  url: https://docs.contextsdk.com
+- type: Documentation
+  url: https://docs.contextsdk.com
+- type: APIReference
+  url: https://context-sdk.github.io/docs-ios/documentation/contextsdk/
+- type: GettingStarted
+  url: https://docs.contextsdk.com/basics/getting-started
+- type: Blog
+  url: https://contextsdk.com/blog
+- type: GitHubOrganization
+  url: https://github.com/context-sdk
+- type: SignUp
+  url: https://dashboard.contextsdk.com/login
+- type: Support
+  url: mailto:support@contextsdk.com
+- type: PrivacyPolicy
+  url: https://contextsdk.com/privacy-policy
+- type: Packages
+  url: packages/contextsdk-packages.yml
+- type: SDKs
+  url: packages/contextsdk-packages.yml
+- type: Authentication
+  url: authentication/contextsdk-authentication.yml
+- type: Lifecycle
+  url: lifecycle/contextsdk-lifecycle.yml
+- type: ChangeLog
+  url: changelog/contextsdk-changelog.yml
+- type: Conformance
+  url: conformance/contextsdk-conformance.yml
+- type: Compliance
+  url: https://contextsdk.com/company/privacy-security
+- type: TrustCenter
+  url: https://trust.contextsdk.com/
+- type: DomainSecurity
+  url: security/contextsdk-domain-security.yml
+- type: LLMsTxt
+  url: llms/contextsdk-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

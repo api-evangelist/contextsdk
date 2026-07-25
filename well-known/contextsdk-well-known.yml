@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+host: https://contextsdk.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on contextsdk.com or
+  dashboard.contextsdk.com. ContextSDK is an on-device mobile SDK (iOS/Android/
+  Flutter/React Native/Unity), not a public REST API surface, so OAuth/OIDC
+  discovery documents are not expected. Absence recorded as of the probe date.

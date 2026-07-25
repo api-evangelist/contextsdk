@@ -1,0 +1,36 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.contextsdk.com/other/changelog
+versioning:
+  scheme: semver
+  current: 5.16.0
+  platform: iOS
+  docs: https://docs.contextsdk.com/other/changelog
+  notes: >-
+    Per-platform SemVer. iOS is the reference platform (current 5.16.0). Flutter
+    plugin tracks its own SemVer (context_sdk 1.2.x). Android is in beta (1.0.0).
+platform_status:
+- platform: iOS
+  status: ga
+- platform: Flutter
+  status: ga
+- platform: React Native
+  status: ga
+- platform: Android
+  status: beta
+- platform: Unity
+  status: ga
+roadmap:
+  items:
+  - Android general availability (currently beta)
+  - Adtech Suite (signal intelligence for ad targeting) — coming soon
+deprecation:
+  policy_url: null
+  sunset_header: false
+  notes: No formal deprecation policy or RFC 8594 Sunset/Deprecation header support published.
+status_page: null
+sla:
+  url: null
+notes: >-
+  No public status page or published SLA found. Deprecations are communicated via
+  the changelog. Distribution is a versioned client SDK, not a hosted REST API.

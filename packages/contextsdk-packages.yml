@@ -1,0 +1,39 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.contextsdk.com/basics/getting-started
+packages:
+- language: swift
+  registry: swift-package-manager
+  name: context-sdk-releases
+  url: https://github.com/context-sdk/context-sdk-releases
+  install: '.package(url: "https://github.com/context-sdk/context-sdk-releases.git", .upToNextMajor(from: "5.16.0"))'
+  official: true
+  notes: iOS binary xcframework distributed via Swift Package Manager.
+- language: swift
+  registry: cocoapods
+  name: ContextSDK
+  url: https://docs.contextsdk.com/basics/getting-started
+  install: pod "ContextSDK"
+  official: true
+  notes: iOS binary xcframework distributed via CocoaPods.
+- language: dart
+  registry: pub.dev
+  name: context_sdk
+  url: https://pub.dev/packages/context_sdk
+  install: 'context_sdk: ^1.2.2'
+  official: true
+  notes: Flutter plugin. pub.dev verified publisher contextsdk.com. Latest 1.2.2 (iOS; Android coming soon).
+- language: javascript
+  registry: npm
+  name: react-native-context-sdk
+  url: https://www.npmjs.com/package/react-native-context-sdk
+  install: npm install react-native-context-sdk@latest
+  official: true
+  notes: React Native module. Source at https://github.com/context-sdk/react-native (MIT).
+- language: kotlin
+  registry: maven
+  name: com.contextsdk:contextsdk
+  url: https://storage.googleapis.com/fc4073e9-contextsdk-maven/
+  install: implementation("com.contextsdk:contextsdk:1.0.0")
+  official: true
+  notes: Android SDK (beta). Hosted Maven repo; contact support@contextsdk.com for access.

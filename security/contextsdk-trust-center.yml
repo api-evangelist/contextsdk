@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://trust.contextsdk.com/
+certifications:
+- SOC 2 Type 2
+- GDPR
+evidence:
+- source: https://trust.contextsdk.com/
+  keywords: [trust center, soc 2, gdpr]
+  status: 200
+- source: https://contextsdk.com/company/privacy-security
+  keywords: [soc 2 type 2, gdpr, on-device, no pii, tls 1.2]
+notes: >-
+  Dedicated Trust Center at trust.contextsdk.com (HTTP 200). Company also
+  publishes a Privacy & Security commitment page. Named posture: SOC 2 Type 2
+  certified, GDPR compliant, on-device processing with no PII / device IDs /
+  user IDs, TLS 1.2+ in transit.

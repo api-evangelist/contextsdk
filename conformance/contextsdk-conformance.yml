@@ -1,0 +1,31 @@
+generated: '2026-07-18'
+method: searched
+source: https://contextsdk.com/company/privacy-security
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: >-
+    "SOC 2 Type 2 certified, demonstrating our commitment to the highest standards"
+    — contextsdk.com/company/privacy-security; announced at
+    contextsdk.com/blogposts/contextsdk-is-soc-2-type-2-certified
+- id: gdpr
+  conforms: true
+  evidence: >-
+    "GDPR Compliant" — no PII, device IDs or user IDs collected; on-device
+    processing (contextsdk.com/company/privacy-security)
+- id: tls
+  conforms: true
+  evidence: >-
+    "all data transmitted between devices and our servers is encrypted using
+    HTTPS with TLS 1.2"
+- id: privacy-by-design
+  conforms: true
+  evidence: >-
+    All data processing and decision-making occur directly on the user's device;
+    no PII, device IDs, or user IDs collected.
+- id: oauth2
+  conforms: false
+  evidence: SDK uses a per-app license key; no OAuth2 surface.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public REST API / OpenAPI.

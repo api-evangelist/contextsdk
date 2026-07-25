@@ -1,0 +1,32 @@
+# ContextSDK
+
+> ContextSDK is an on-device context intelligence layer for mobile apps. It processes 300+ real-world device signals (accelerometer, gyroscope, motion, screen state, ambient signals) through on-device ML to tell an app what the user is doing in the moment — commuting, relaxing, working, active — within seconds of app launch, with no PII collected. Products: ContextDecision (intelligent timing for in-app actions) and ContextPush (context-aware push delivery). SOC 2 Type 2 certified and GDPR compliant; iOS GA with Flutter/React Native/Unity support and Android in beta.
+
+This is a generated llms.txt for the API Evangelist network profile (not published by ContextSDK). It links the provider's real developer surfaces.
+
+## Products
+- [ContextDecision](https://contextsdk.com/products): Intelligent timing for triggering in-app actions and messages.
+- [ContextPush](https://contextsdk.com/products): Context-aware push notification delivery optimization.
+
+## Docs
+- [Documentation](https://docs.contextsdk.com/): ContextSDK developer documentation.
+- [Getting Started](https://docs.contextsdk.com/basics/getting-started): Sign up, create a license key, install and initialize the SDK.
+- [iOS API Reference (DocC)](https://context-sdk.github.io/docs-ios/documentation/contextsdk/): Generated Swift SDK reference.
+- [Changelog](https://docs.contextsdk.com/other/changelog): Dated per-version release notes (iOS current 5.16.0).
+- [Privacy & Security](https://contextsdk.com/company/privacy-security): SOC 2 Type 2, GDPR, on-device processing, no PII, TLS 1.2+.
+
+## SDKs
+- [iOS — Swift Package Manager](https://github.com/context-sdk/context-sdk-releases): .upToNextMajor(from: "5.16.0")
+- [iOS — CocoaPods](https://docs.contextsdk.com/basics/getting-started): pod "ContextSDK"
+- [Flutter](https://pub.dev/packages/context_sdk): context_sdk (pub.dev verified publisher)
+- [React Native](https://www.npmjs.com/package/react-native-context-sdk): npm install react-native-context-sdk@latest
+- [Android (beta)](https://storage.googleapis.com/fc4073e9-contextsdk-maven/): com.contextsdk:contextsdk
+
+## Company
+- [Website](https://contextsdk.com): ContextSDK Inc., New York, NY. Backed by Speedinvest.
+- [Dashboard / Login](https://dashboard.contextsdk.com/login): Create license keys.
+- [GitHub Organization](https://github.com/context-sdk): Public SDK repositories.
+- [Blog](https://contextsdk.com/blog): Engineering and product posts.
+- [Trust Center](https://trust.contextsdk.com/): Certifications and security posture.
+- [Privacy Policy](https://contextsdk.com/privacy-policy)
+- [Imprint](https://contextsdk.com/imprint)
