@@ -45,13 +45,16 @@ specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://contextsdk.com/favicon.ico
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-24
 tags:
 - Company
 - Mobile
 - SDK
 - On-Device
 - Context
-- Machine-Learning
+- Machine Learning
 - Push Notifications
 - Privacy
 - iOS
@@ -67,6 +70,7 @@ tags_raw:
 - Privacy
 - iOS
 - Analytics
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
